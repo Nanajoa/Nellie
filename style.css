@@ -1,0 +1,85 @@
+/* General styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+/* Login page */
+.login-body {
+    background: url('blog_back image.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: white;
+    text-align: center;
+}
+
+/* Signup page */
+.signup-body {
+    background: url('blog_back image.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: white;
+    text-align: center;
+}
+
+/* Blog page */
+.blog-body {
+    background: url('images/blog-bg.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: #333;
+}
+
+/* Create post page */
+.create-post-body {
+    background: url('images/create-bg.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: #333;
+}
+
+/* About page */
+.about-body {
+    background: url('images/about-bg.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: white;
+}
+
+/* Form and buttons */
+form {
+    background: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    margin: 0 auto;
+    max-width: 500px;
+    border-radius: 10px;
+}
+
+input, textarea, select {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #4CAF50;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Post styling */
+.post {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
+
+.categories {
+    margin-bottom: 20px;
+}
+
+.categories a {
+    margin-right: 10px;
+    text-decoration: none;
+    color: #333;
+}
